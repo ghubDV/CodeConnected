@@ -27,7 +27,7 @@
            $this->new_password = $new_p;
            $this->db = new dbclass();
            $this->type = $t;
-           if($t === "Company")
+           if($t === "Company" || $t === "company")
            {
                $this->dbtable = "companyaccounts";
            }
@@ -67,7 +67,7 @@
                 {
                     return true;
                 }
-            }   
+            }
 
             return false;
 
@@ -92,7 +92,7 @@
             {
                 return true;
             }
-            
+
             return false;
        }
 
@@ -102,7 +102,7 @@
             $query = "UPDATE ".$this->dbtable." ".
                      "SET password_hash = ?".
                      "WHERE email = ?";
-            
+
             //generating new password hash and constructing the parameter list for the query
             $newPass_hash = password_hash($this->new_password,PASSWORD_DEFAULT);
             $params = array($newPass_hash,$this->current_email);
@@ -115,7 +115,7 @@
             {
                 return true;
             }
-            
+
             return false;
        }
 
@@ -155,7 +155,7 @@
             }
 
             return false;
-        }   
+        }
 
        function sendActivationCode()
        {
@@ -184,14 +184,14 @@
                     "code" => $arc_hash->code,
                     "server" => true,
                     "sent" => true
-                ));   
+                ));
             }
             else
             {
                 return ((object)array(
                     "server" => false,
                     "sent" => false
-                ));   
+                ));
             }
 
        }
@@ -223,8 +223,8 @@
             {
                 return true;
             }
-        }  
-        
+        }
+
         return false;
        }
 
@@ -255,10 +255,10 @@
             {
                 return ((object)array(
                     "isMatch" => true,
-                )); 
+                ));
             }
-        }  
-        
+        }
+
         return ((object)array(
             "isMatch" => false,
         ));
@@ -273,7 +273,7 @@
                     "server" => false,
                     "credentials" => false,
                     "active" => false
-                )); 
+                ));
            }
            else
            {
@@ -294,7 +294,7 @@
                         "credentials" => true,
                         "active" => true,
                         "jwt" => $token
-                    )); 
+                    ));
                 }
 
                 else
@@ -303,7 +303,7 @@
                         "server" => false,
                         "credentials" => true,
                         "active" => false
-                    )); 
+                    ));
                 }
            }
        }
@@ -396,7 +396,7 @@
         echo json_encode($result);
         die;
     }
-    
+
     if($data['change'] === 'password')
     {
         $change = new changeUserData($data['c_email'],null,$data['pass'],$data['n_pass'],$data['type']);

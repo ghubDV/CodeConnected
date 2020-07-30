@@ -12,10 +12,10 @@ Before you're trying to run the application, make sure you've installed the foll
 - MySQL and PHP server apps
 
 To start the application you'll need to do the following:
-- make sure your PHP, Node.js and MySQL are running on the same server, but on different ports
-	e.g. - node on 192.168.0.40:3000
-	     - PHP on 192.168.0.40:8000
-	     - MySQL on 192.168.0.30:3306
+- make sure your PHP, Node.js and MySQL are running on the same server, but on different ports (simillar to the example below):
+	- node on 192.168.0.40:3000
+	- PHP on 192.168.0.40:8000
+	- MySQL on 192.168.0.30:3306
 
 - root server locations are:
 	- /l2019en for the Node.js with React

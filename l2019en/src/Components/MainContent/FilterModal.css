@@ -1,0 +1,41 @@
+#modalPop
+{
+    background: #f3f1ef;
+    border-radius: 0;
+    transition: none;
+    border:0;
+}
+
+#modalPop:hover
+{
+    background: #FFA500 linear-gradient(#FFA500,rgb(255, 145, 0));
+}
+
+.orange-btn
+{
+    background-color: #FFA500;
+}
+
+.orange-btn:hover
+{
+    background-color: rgb(255, 145, 0);
+}
+
+#removeAll
+{
+    border-radius: 0;
+    transition: none;
+    border:0;
+    color:red;
+}
+
+#removeAll:hover
+{
+    background-color: red;
+    color:#fff;
+}
+
+.app-filter
+{
+    border-left: 2px solid #FFA500;
+}

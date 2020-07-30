@@ -1,0 +1,25 @@
+.acc-drop
+{
+    background-color: #4E4E4E;
+    color: #FFA500 !important;
+}
+
+#acc-type-drop
+{
+    background-color:#1d2124;
+}
+
+#acc-type-drop > a
+{
+    color: #FFA500;
+}
+
+#acc-type-drop > a:hover
+{
+    background-color: #4E4E4E;
+}
+
+#acc-type-drop > a:active
+{
+    background-color: #4E4E4E;
+}

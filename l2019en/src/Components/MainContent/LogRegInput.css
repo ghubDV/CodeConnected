@@ -1,0 +1,27 @@
+#basic-addon
+{
+    background-color: #4E4E4E;
+    color: #FFA500;
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+.input-group-text
+{
+  min-width:40px;
+}
+
+.user-input
+{
+  background-color: #f3f1ef !important;
+  border-radius: 0 !important;
+  border-left:thin solid rgb(196, 196, 196) !important;
+  border-right:thin solid rgb(196, 196, 196) !important;
+  border-top:0 !important;
+  border-bottom: 0 !important;
+  transition: .35s border-color ease !important;
+}
+
+.user-input:focus
+{
+  border:thin solid #FFA500 !important;
+}

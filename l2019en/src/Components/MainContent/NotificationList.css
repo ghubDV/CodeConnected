@@ -1,0 +1,11 @@
+.MuiList-root {
+    outline: 0;
+}
+
+.new-label {
+    padding: 2px;
+    font-size: 12px;
+    border-radius: 2px;
+    margin-left:4px;
+    background-color: #FFA500;
+}

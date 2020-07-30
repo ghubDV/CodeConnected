@@ -1,0 +1,32 @@
+.doubleSearch
+{
+    flex: 1 1;
+}
+
+@media only screen and (max-width: 576px) {
+    .doubleSearch
+    {
+        flex-direction: column;
+    }
+
+    .mobileFlex
+    {
+        flex-direction: column;
+    }
+
+    .mobileFlex > *
+    {
+        margin-bottom: 8px;
+        border: thin solid rgb(230,230,230) !important
+    }
+
+    .dropdown-menu
+    {
+        min-width: 100% !important;
+    }
+
+    .b-bottom
+    {
+        border-top: thin solid rgb(196, 196, 196) !important;
+    }
+}

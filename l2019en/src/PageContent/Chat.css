@@ -1,0 +1,114 @@
+
+.chat-header
+{
+    width:100%;
+    min-height: 50px;
+    background-color: rgba(0,0,0,0.05);
+    border-bottom: thin solid rgba(0,0,0,0.05);
+    display: flex;
+    align-items:center;
+    padding: 0 8px;
+}
+.chat-window
+{
+    width:600px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: #fff;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1), 0 3px 6px rgba(0,0,0,0.17);
+}
+
+.chat-body
+{
+    padding: 8px 16px;
+    overflow-y:auto;
+}
+
+.sent-color
+{
+    background-color: #fd7e14 !important;
+    color: #fff !important;
+}
+
+.wrap-words
+{
+    height: auto !important;
+    padding: 4px !important;
+}
+
+.sent-message
+{
+    width:100%;
+    display:flex;
+    justify-content: flex-end;
+    margin-bottom: 8px;
+}
+
+.system-message-joined {
+    width:100%;
+    display:flex;
+    justify-content: center;
+    color: green;
+    margin-bottom: 8px;
+}
+
+.system-message-left {
+    width:100%;
+    display:flex;
+    justify-content: center;
+    color: red;
+    margin-bottom: 8px;
+}
+
+.received-message
+{
+    width:100%;
+    display:flex;
+    justify-content: flex-start;
+    margin-bottom: 8px;
+}
+
+.send-message-box
+{
+    width:600px;
+    margin-left:auto;
+    margin-right:auto;
+    min-height:50px;
+    margin-top:16px;
+    margin-bottom:8px;
+    background-color: #fff;
+    display:flex;
+    flex-direction: row;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.02), 0 3px 6px rgba(0,0,0,0.09);
+}
+
+.message-box
+{
+    width:100%;
+    border-right: thin solid rgba(0,0,0,0.05);
+    display:flex;
+    align-items:center;
+    padding-left:12px;
+    padding-right:12px;
+}
+
+.send-button
+{
+    width:48px;
+    display: flex;
+    align-items:center;
+}
+
+.MuiChip-label {
+    white-space: normal !important;
+    word-wrap: break-word;
+    max-width: 200px;
+    text-overflow: unset !important;
+}
+
+@media only screen and (max-width:768px) {
+    .send-message-box, .chat-window
+    {
+        width:100%;
+    }
+}

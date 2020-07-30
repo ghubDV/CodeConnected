@@ -1,0 +1,19 @@
+.MuiPickersBasePicker-pickerView
+{
+    min-width: 200px !important;
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    outline:none;
+}
+
+.MuiPickersDay-daySelected
+{
+    background-color: #FFA500 !important;
+    color: #000 !important;
+}
+
+.MuiPickersDay-current
+{
+    color: #000 !important;
+}

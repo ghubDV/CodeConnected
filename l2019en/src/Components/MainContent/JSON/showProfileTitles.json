@@ -1,0 +1,90 @@
+{
+    "companyTitles" : 
+    [
+
+        {
+            "id": "companyName",
+            "title": "Company Name"
+        },
+
+        {
+            "id": "founded",
+            "title": "Foundation date"
+        },
+
+        {
+            "id": "workDomain",
+            "title": "Work Domain"
+        },
+
+        {
+            "id": "companyDescription",
+            "title": "Company Description"
+        },
+
+        {
+            "id": "location",
+            "title": "Located in"
+        },
+
+        {
+            "id": "website",
+            "title": "Website",
+            "isLink": true
+            
+        }
+
+    ],
+
+    "userTitles":
+    [
+        {
+            "id": "fullName",
+            "title": "Full Name"
+        },
+
+        {
+            "id": "description",
+            "title": "Description"
+        },
+
+        {
+            "id": "profession",
+            "title": "Profession"
+        },
+
+        {
+            "id": "education",
+            "title": "Education"
+        },
+
+        {
+            "id": "location",
+            "title": "From"
+        }
+    ],
+
+    "jobTitles":
+    [
+        {
+            "id": "jobName",
+            "title": "Job Title"
+        },
+
+        {
+            "id": "jobDescription",
+            "title": "Description"
+        },
+
+        {
+            "id": "jobFunction",
+            "title": "Job Function"
+        },
+
+        {
+            "id": "experienceLevel",
+            "title": "Experience Level required"
+        }
+    ]
+
+}

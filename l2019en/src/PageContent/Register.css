@@ -1,0 +1,47 @@
+#page_content_wrap
+{
+  width:100% !important;
+  height:100% !important;
+}
+
+.flex-fullWH-container
+{
+    display:flex;
+    flex:1;
+    padding-left:15px;
+    padding-right:15px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+@media only screen and (max-width: 576px)
+{
+    .card-responsive
+    {
+        min-width: 100%;
+    }
+}
+
+@media only screen and (min-width: 576px)
+{
+    .card-responsive
+    {
+        width: 500px;
+    }
+}
+
+#form-card
+{
+    background-color: rgba(78,78,78,0.9);
+}
+
+#form-card-header
+{
+    color: #FFA500 !important;
+}
+
+#form-card-footer
+{
+    text-align: center;
+    flex-direction: column;
+}

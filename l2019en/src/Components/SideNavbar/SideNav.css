@@ -1,0 +1,59 @@
+.hidden
+{
+    visibility:hidden;
+    transform: translateX(-100%);
+}
+
+.visible
+{
+    visibility:visible;
+    transform:translateX(0%);
+}
+
+#vnav
+{
+  margin:0 !important;
+  background: #292929;
+  height:100%;
+  padding-top:1em;
+}
+
+#vnav_wrap
+{
+    width:260px;
+    position:fixed;
+    transition: .3s transform,.3s visibility;
+    z-index:10;
+    box-shadow: 5px 0 5px rgba(0,0,0,.2);
+}
+
+#vnav-container
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.side-nav-item
+{
+  padding: .75em;
+  text-decoration: none !important;
+  color:#CCCCCC;
+  transition: .1s background;
+}
+
+.side-nav-item:hover
+{
+  background: #4E4E4E;
+  color:#CCCCCC;
+  cursor: pointer;
+}
+
+.orange
+{
+  color:#FFA500;
+}
+
+.orange:hover
+{
+  color:#FFA500 !important;
+}

@@ -1,0 +1,50 @@
+{
+    "filters" : [
+        {
+            "type" : "Experience Level",
+            "typeDB": "experienceLevel",
+            "values" : ["Junior Level","Mid-Senior Level","Senior Level"]
+        },
+
+        {
+            "type" : "Date Posted",
+            "typeDB": "datePosted",
+            "values" : ["Last Day","Last Week","Last Month","Last 6 Months","Last Year"]
+        },
+
+        {
+            "type": "select",
+            "inputId" : "country",
+            "labelId" : "countryLabel",
+            "helperId": "countryHelper",
+            "readOnly": false,
+            "fullWidth": true,
+            "label": "Country",
+            "placeholder": "Choose your country"
+        },
+
+        {
+            "title": "State",
+            "type": "select",
+            "inputId" : "state",
+            "labelId" : "stateLabel",
+            "helperId": "stateHelper",
+            "readOnly": false,
+            "fullWidth": true,
+            "label": "State",
+            "placeholder": "Choose your state"
+        },
+        
+        {
+            "title": "City",
+            "type": "select",
+            "inputId" : "city",
+            "labelId" : "cityLabel",
+            "helperId": "cityHelper",
+            "readOnly": false,
+            "fullWidth": true,
+            "label": "City",
+            "placeholder": "Choose your city"
+        }
+    ]
+}

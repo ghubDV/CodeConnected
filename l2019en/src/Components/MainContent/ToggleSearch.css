@@ -1,0 +1,26 @@
+.search-type
+{
+  background-color: #f3f1ef !important;
+  box-shadow: 0 !important;
+  border-radius: 0 !important;
+  border:none;
+}
+
+.dropdown-item:active
+{
+  background-color: #FFA500;
+}
+
+#toggleSearchDrop
+{
+  z-index:2;
+}
+
+@media only screen and (max-width: 768px)
+{
+  #toggleSearch, #toggleSearchDrop
+  {
+    width:inherit !important;
+  }
+
+}

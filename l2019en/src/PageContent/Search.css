@@ -1,0 +1,22 @@
+.no-decoration
+{
+  color:#fd7e14;
+  text-decoration: none;
+}
+
+.no-decoration:hover
+{
+  color:#fd7e14;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 980px)
+{
+  #page_content
+  {
+      margin:0 !important;
+      transition: .3s margin-left,.3s filter;
+
+  }
+
+}

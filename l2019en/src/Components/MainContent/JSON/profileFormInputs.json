@@ -1,0 +1,349 @@
+{
+    "user": {
+        "inputs" : [
+            {
+                "title": "First Name*",
+                "type": "text",
+                "inputId" : "firstName",
+                "labelId" : "firstNameLabel",
+                "helperId": "firstNameHelper",
+                "readOnly": false,
+                "fullWidth": true,
+                "label": "First Name",
+                "placeholder": "enter your firstname..."
+            },
+    
+            {
+                "title": "Last Name*",
+                "type": "text",
+                "inputId" : "lastName",
+                "labelId" : "lastNameLabel",
+                "helperId": "lastNameHelper",
+                "readOnly": false,
+                "fullWidth": true,
+                "label": "Last Name",
+                "placeholder": "enter your lastname..."
+            },
+    
+            {
+                "title": "Contact*",
+                "type": "text",
+                "inputId" : "contactEmail",
+                "labelId" : "contactEmailLabel",
+                "helperId": "contactEmailHelper",
+                "readOnly": false,
+                "fullWidth": true,
+                "label": "Contact Email",
+                "placeholder": "enter your contact email..."
+            },
+    
+            {
+                "title": "Birth Date*",
+                "type": "date",
+                "inputId" : "birthDate",
+                "readOnly": false,
+                "fullWidth": false,
+                "label": "Your date of birth",
+                "helper": "You need to be atleast 18 years old"
+            },
+    
+            {
+                "title": "Country*",
+                "type": "select",
+                "inputId" : "country",
+                "labelId" : "countryLabel",
+                "helperId": "countryHelper",
+                "readOnly": false,
+                "fullWidth": true,
+                "label": "Country",
+                "placeholder": "Choose your country"
+            },
+    
+            {
+                "title": "State",
+                "type": "select",
+                "inputId" : "state",
+                "labelId" : "stateLabel",
+                "helperId": "stateHelper",
+                "readOnly": false,
+                "fullWidth": true,
+                "label": "State",
+                "placeholder": "Choose your state"
+            },
+            
+            {
+                "title": "City",
+                "type": "select",
+                "inputId" : "city",
+                "labelId" : "cityLabel",
+                "helperId": "cityHelper",
+                "readOnly": false,
+                "fullWidth": true,
+                "label": "City",
+                "placeholder": "Choose your city"
+            },
+    
+            {
+                "title": "Description",
+                "type": "text",
+                "inputId" : "description",
+                "labelId" : "descriptionLabel",
+                "helperId": "descriptionHelper",
+                "readOnly": false,
+                "fullWidth": true,
+                "multiline": true,
+                "label": "Description",
+                "placeholder": "describe yourself...",
+                "helper": "Give a short description of yourself"
+            },
+    
+            {
+                "title": "Profession",
+                "type": "text",
+                "inputId" : "profession",
+                "labelId" : "professionLabel",
+                "helperId": "professionHelper",
+                "readOnly": false,
+                "fullWidth": true,
+                "multiline": true,
+                "label": "Profession",
+                "placeholder": "your profession..."
+            },
+    
+            {
+                "title": "Education",
+                "type": "text",
+                "inputId" : "education",
+                "labelId" : "educationLabel",
+                "helperId": "educationHelper",
+                "readOnly": false,
+                "fullWidth": true,
+                "multiline": true,
+                "label": "Education",
+                "placeholder": "your education...",
+                "helper": "Brief history of your education"
+            },
+    
+            {
+                "title": "Resume*",
+                "type": "file",
+                "inputId" : "cvFile",
+                "fullWidth": false
+            }
+        ]
+    },
+    
+    "company": {
+        "inputs" : [
+            {
+                "title": "Company Name*",
+                "type": "text",
+                "inputId" : "companyName",
+                "labelId" : "companyNameLabel",
+                "helperId": "companyNameHelper",
+                "readOnly": false,
+                "fullWidth": true,
+                "label": "Company name",
+                "placeholder": "enter your company name..."
+            },
+
+            {
+                "title": "Work Domain*",
+                "type": "text",
+                "inputId" : "workDomain",
+                "labelId" : "workDomainLabel",
+                "helperId": "workDomainHelper",
+                "readOnly": false,
+                "fullWidth": true,
+                "multiline": true,
+                "label": "Work Domain",
+                "placeholder": "domain of work for your company..."
+            },
+
+            {
+                "title": "Company Description*",
+                "type": "text",
+                "inputId" : "companyDescription",
+                "labelId" : "companyDescriptionLabel",
+                "helperId": "companyDescriptionHelper",
+                "readOnly": false,
+                "fullWidth": true,
+                "multiline": true,
+                "label": "Company Description",
+                "placeholder": "describe your company..."
+            },
+
+            {
+                "title": "Founded*",
+                "type": "date",
+                "inputId" : "founded",
+                "readOnly": false,
+                "fullWidth": false,
+                "label": "Founded in..."
+            },
+    
+            {
+                "title": "Contact Email*",
+                "type": "text",
+                "inputId" : "contactEmail",
+                "labelId" : "contactEmailLabel",
+                "helperId": "contactEmailHelper",
+                "readOnly": false,
+                "fullWidth": true,
+                "label": "Contact Email",
+                "placeholder": "enter your contact email..."
+            },
+
+            {
+                "title": "Country*",
+                "type": "select",
+                "inputId" : "country",
+                "labelId" : "countryLabel",
+                "helperId": "countryHelper",
+                "readOnly": false,
+                "fullWidth": true,
+                "label": "Country",
+                "placeholder": "Choose your country"
+            },
+    
+            {
+                "title": "State",
+                "type": "select",
+                "inputId" : "state",
+                "labelId" : "stateLabel",
+                "helperId": "stateHelper",
+                "readOnly": false,
+                "fullWidth": true,
+                "label": "State",
+                "placeholder": "Choose your state"
+            },
+            
+            {
+                "title": "City",
+                "type": "select",
+                "inputId" : "city",
+                "labelId" : "cityLabel",
+                "helperId": "cityHelper",
+                "readOnly": false,
+                "fullWidth": true,
+                "label": "City",
+                "placeholder": "Choose your city"
+            },
+
+            {
+                "title": "Website",
+                "type": "text",
+                "inputId" : "website",
+                "labelId" : "websiteLabel",
+                "helperId": "websiteHelper",
+                "readOnly": false,
+                "fullWidth": true,
+                "label": "Company Website",
+                "placeholder": "write the link here...",
+                "helper": "e.g. http(s)://(www.)example.com"
+            }
+        ]
+    },
+
+    "job" : {
+        "inputs" : [
+            {
+                "title": "Job Title*",
+                "type": "text",
+                "inputId" : "jobName",
+                "labelId" : "jobNameLabel",
+                "helperId": "jobNameHelper",
+                "readOnly": false,
+                "fullWidth": true,
+                "label": "Job Title",
+                "placeholder": "enter your job post title..."
+            },
+
+            {
+                "title": "Job Description*",
+                "type": "text",
+                "inputId" : "jobDescription",
+                "labelId" : "jobDescriptionLabel",
+                "helperId": "jobDescriptionHelper",
+                "readOnly": false,
+                "multiline": true,
+                "fullWidth": true,
+                "label": "Job Description",
+                "placeholder": "describe in what your job consits..."
+            },
+
+            {
+                "title": "Job Function*",
+                "type": "text",
+                "inputId" : "jobFunction",
+                "labelId" : "jobFunctionLabel",
+                "helperId": "jobFunctionHelper",
+                "readOnly": false,
+                "fullWidth": true,
+                "label": "Job Function",
+                "placeholder": "desired function..."
+            },
+
+            {
+                "title": "Contact Email*",
+                "type": "text",
+                "inputId" : "contactEmail",
+                "labelId" : "contactEmailLabel",
+                "helperId": "contactEmailHelper",
+                "readOnly": false,
+                "fullWidth": true,
+                "label": "Contact Email",
+                "placeholder": "enter your contact email..."
+            },
+
+            {
+                "title": "Experience Level*",
+                "type": "select",
+                "inputId" : "experienceLevel",
+                "labelId" : "experienceLevelLabel",
+                "helperId": "experienceLevelHelper",
+                "readOnly": false,
+                "fullWidth": true,
+                "label": "Experience Level",
+                "selectValues": {"experienceLevel" : ["Junior Level","Mid-Senior Level","Senior Level"]},
+                "placeholder": "Choose an experience level"
+            },
+            
+            {
+                "title": "Country*",
+                "type": "select",
+                "inputId" : "country",
+                "labelId" : "countryLabel",
+                "helperId": "countryHelper",
+                "readOnly": false,
+                "fullWidth": true,
+                "label": "Country",
+                "placeholder": "Choose your country"
+            },
+    
+            {
+                "title": "State",
+                "type": "select",
+                "inputId" : "state",
+                "labelId" : "stateLabel",
+                "helperId": "stateHelper",
+                "readOnly": false,
+                "fullWidth": true,
+                "label": "State",
+                "placeholder": "Choose your state"
+            },
+            
+            {
+                "title": "City",
+                "type": "select",
+                "inputId" : "city",
+                "labelId" : "cityLabel",
+                "helperId": "cityHelper",
+                "readOnly": false,
+                "fullWidth": true,
+                "label": "City",
+                "placeholder": "Choose your city"
+            }
+        ]
+    }
+}

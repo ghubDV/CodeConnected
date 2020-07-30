@@ -1,0 +1,47 @@
+#pagectrl:hover
+{
+    color: #ffa500 !important;
+}
+#pagectrl
+{
+    color: #292929;
+}
+
+ul.dropdown-menu
+{
+    border:none !important;
+}
+
+.dropdown-item.active
+{
+    background-color: #ffa500;
+}
+.pagenav
+{
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+
+#pageSelector
+{
+    min-width: auto !important;
+    width:100% !important;
+    max-height: 115px !important;
+    overflow-y:auto;
+}
+
+#pageSelectBtn
+{
+    border-radius: 0 !important;
+    border: 0 !important;
+    background-color:#f3f1ef !important;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+
+#pageSelectBtn:hover
+{
+    background-color:#dad8d7 !important;
+}

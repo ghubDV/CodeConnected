@@ -1,0 +1,32 @@
+html
+{
+  overflow-x: hidden;
+}
+
+html,body,#root
+{
+  font-family: 'Open Sans';
+  height:100%;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/OpenSans-Regular.ttf');
+}
+
+body
+{
+  overflow-x:hidden;
+  overflow-y:auto !important;
+}
+
+.darken
+{
+  filter: brightness(0.5);
+}
+form .row .col
+{
+  padding:1px;
+}

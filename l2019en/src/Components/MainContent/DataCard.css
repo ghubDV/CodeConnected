@@ -1,0 +1,11 @@
+.dataCard
+{
+    margin: 0 8px;
+    padding: 24px 0;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.dataCardtitle
+{
+    margin-bottom: 15px;
+}
